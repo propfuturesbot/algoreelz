@@ -1,0 +1,17 @@
+{
+  "name": "EduReels - DSA Visualizations",
+  "short_name": "EduReels",
+  "description": "Instagram-style DSA educational videos",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0F1419",
+  "theme_color": "#0F1419",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
