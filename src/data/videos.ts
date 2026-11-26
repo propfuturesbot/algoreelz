@@ -15,6 +15,7 @@ export interface Category {
 
 export const categories: Category[] = [
   { id: 'all', label: 'All', color: '#58A6FF' },
+  { id: 'system-design', label: 'System Design', color: '#FFD166' },
   { id: 'arrays', label: 'Arrays', color: '#4FC3F7' },
   { id: 'linkedlists', label: 'Linked Lists', color: '#81C784' },
   { id: 'trees', label: 'Trees', color: '#FFB74D' },
@@ -505,5 +506,31 @@ export const videos: Video[] = [
     categoryLabel: 'Math & Bits',
     categoryColor: '#B39DDB',
     videoUrl: '/videos/math/SingleNumberEducational.mp4'
+  },
+
+  // System Design
+  {
+    id: 'resumable-uploads',
+    title: 'Resumable Uploads',
+    category: 'system-design',
+    categoryLabel: 'System Design',
+    categoryColor: '#FFD166',
+    videoUrl: 'https://pub-a3a57e92f8944470ae8b60e8b271e6ea.r2.dev/reels/system-design/resumable-upload/resumable-upload/resumable-upload.mp4'
+  },
+  {
+    id: 'adaptive-video-playback',
+    title: 'Adaptive Video Playback',
+    category: 'system-design',
+    categoryLabel: 'System Design',
+    categoryColor: '#FFD166',
+    videoUrl: 'https://pub-a3a57e92f8944470ae8b60e8b271e6ea.r2.dev/reels/system-design/how-video-streaming-works/video-playback/video-playback.mp4'
+  },
+  {
+    id: 'parallel-video-transcoding',
+    title: 'Parallel Video Transcoding',
+    category: 'system-design',
+    categoryLabel: 'System Design',
+    categoryColor: '#FFD166',
+    videoUrl: 'https://pub-a3a57e92f8944470ae8b60e8b271e6ea.r2.dev/reels/system-design/how-video-streaming-works/parallel-transcoding/parallel-transcoding.mp4'
   },
 ];
